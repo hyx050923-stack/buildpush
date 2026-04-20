@@ -15,8 +15,6 @@
 extern "C" {
 #endif
 
-IMAGEPROC_API int runRegionHistogramEqualization(const char* kImagePath);
-
 IMAGEPROC_API void processROIHistEqualization(
     unsigned char* imgData, int width, int height, 
     int roiX, int roiY, int roiW, int roiH, 
