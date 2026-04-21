@@ -7,3 +7,4 @@
 * **bin/**：包含 `ImageProcessing.dll` 以及运行时依赖 `opencv_world4100.dll`。
 * **include/**：包含 `ImageProcessing.h` 头文件，定义了 C 风格的导出接口。
 * **lib/**：包含 `ImageProcessing.lib` 导入库，用于编译期链接。
+### 当前函数说明
