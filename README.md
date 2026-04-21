@@ -11,10 +11,10 @@
 * **processROIHistEqualization**: 该函数通过分析图像中指定 ROI 区域的亮度分布（直方图），生成一个最优的对比度映射表（LUT），并将其应用到整幅图像中。
 ```
 * @param width    图像宽度
- * @param height   图像高度
- * @param roiX     ROI 区域左上角横坐标
- * @param roiY     ROI 区域左上角纵坐标
- * @param roiW     ROI 区域宽度
- * @param roiH     ROI 区域高度
- * @param outData  输出图像的数据指针（空间需由调用者提前分配，大小同输入）
+  @param height   图像高度
+  @param roiX     ROI 区域左上角横坐标
+  @param roiY     ROI 区域左上角纵坐标
+  @param roiW     ROI 区域宽度
+  @param roiH     ROI 区域高度
+  @param outData  输出图像的数据指针（空间需由调用者提前分配，大小同输入）
 ```
