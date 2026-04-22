@@ -18,7 +18,7 @@ extern "C" {
 IMAGEPROC_API bool processROIHistEqualization(
     const char* input_path,  // 输入图片路径
     int roiX, int roiY, int roiW, int roiH, 
-    const char* output_path) // 输出图片路径
+    const char* output_path); // 输出图片路径
     
 IMAGEPROC_API bool IntensityNContrast(
     const char* input_path, const char* output_path, double alpha, double c);
